@@ -41,5 +41,13 @@ packer.startup(function(use)
   use 'norcalli/nvim-colorizer.lua'
 
   use 'lewis6991/gitsigns.nvim'
-  use 'dinhhuy258/git.nvim' -- For git blame & browse
+  use 'dinhhuy258/git.nvim'                         -- For git blame & browse
+  use { 'akinsho/git-conflict.nvim', tag = "*" }    -- For git conflict
+
+  use 'numToStr/Comment.nvim'                       -- Comment shortcut
+  use 'JoosepAlviste/nvim-ts-context-commentstring' -- Help comment.nvim for better commenting on files ike jsx/tsx
+
+  use 'github/copilot.vim'                          --Copilot
+  use 'andweeb/presence.nvim'                       --Discord presence
+  use 'wakatime/vim-wakatime'                       --Wakatime
 end)

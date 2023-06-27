@@ -15,8 +15,18 @@ ts.setup {
     'lua',
     'json',
     'css',
+    'javascript',
+    'html',
+    'typescript',
+    'python',
+    'graphql',
+    'dockerfile',
   },
   autotag = {
     enable = true,
-  }
+  },
+  context_commentstring = {
+    enable = true,
+    enable_autocmd = false,
+  },
 }

@@ -39,3 +39,14 @@ Group.new("RenameBorder", colors.yellow, colors.none, styles.NONE)
 Group.new("DefinitionBorder", colors.yellow, colors.none, styles.NONE)
 Group.new("FinderBorder", colors.yellow, colors.none, styles.NONE)
 Group.new("FinderPreviewBorder", colors.yellow, colors.none, styles.NONE)
+
+-- GitConflict
+-- other group: https://github.com/akinsho/git-conflict.nvim/issues/52
+Color.new('incomingBg', '#1e3450')
+Color.new('currentBg', '#1a4a2a')
+Color.new('incomingLabel', '#2e507d')
+Color.new('currentLabel', '#297542')
+Group.new("GitConflictIncoming", colors.none, colors.incomingBg, styles.NONE)
+Group.new("GitConflictCurrent", colors.none, colors.currentBg, styles.NONE)
+Group.new("GitConflictIncomingLabel", colors.none, colors.incomingLabel, styles.NONE)
+Group.new("GitConflictCurrentLabel", colors.none, colors.currentLabel, styles.NONE)

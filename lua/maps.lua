@@ -32,7 +32,12 @@ keymap.set('n', '<C-w><right>', '<C-w>>')
 keymap.set('n', '<C-w><up>', '<C-w>+')
 keymap.set('n', '<C-w><down>', '<C-w>-')
 
+-- My custom
 -- Map jk to Esc in insert mode
 keymap.set('i', 'kj', '<Esc>', {})
 -- Map <Space> to Save file in normal mode
 keymap.set('n', '<Space>', ':w<cr>')
+
+-- move line up and down
+keymap.set('', '<C-n>', ":m+1<cr>")
+keymap.set('', '<C-m>', ":m-2<cr>")
