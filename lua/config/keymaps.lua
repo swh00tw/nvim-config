@@ -4,8 +4,8 @@
 local keymap = vim.keymap
 -- -- Map jk to Esc in insert mode
 keymap.set("i", "kj", "<Esc>", {})
--- Map <Space> to Save file in normal mode
-keymap.set("n", "<Space>", ":w<cr>")
+-- Map <Enter> to Save file in normal mode
+keymap.set("n", "<cr>", ":w<cr>")
 
 -- bufferline
 vim.keymap.set("n", "<Tab>", "<Cmd>BufferLineCycleNext<CR>", {})
