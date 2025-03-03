@@ -10,3 +10,6 @@ keymap.set("n", "<cr>", ":w<cr>")
 -- bufferline
 vim.keymap.set("n", "<Tab>", "<Cmd>BufferLineCycleNext<CR>", {})
 vim.keymap.set("n", "<S-Tab>", "<Cmd>BufferLineCyclePrev<CR>", {})
+
+-- Map "gt" to goto-def and open in new tab
+vim.keymap.set("n", "gt", "<cmd>tab split | lua vim.lsp.buf.definition()<CR>", {})
